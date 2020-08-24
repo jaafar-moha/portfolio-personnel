@@ -1,0 +1,41 @@
+.navbar {
+  width: 5%;
+  height: 100%;
+  background-color: black;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .en {
+  padding-top: 70px;
+}
+
+.navbar .en i {
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  color: #08fdd8;
+}
+
+.navbar .en i:hover {
+  color: #fb126f;
+}
+
+.navbar .en #home {
+  color: #fb126f;
+}
+
+.navbar .media {
+  padding-top: 30px;
+}
+
+.navbar .media i {
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  color: #08fdd8;
+}
+/*# sourceMappingURL=navbar.css.map */
