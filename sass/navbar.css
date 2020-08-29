@@ -2,6 +2,7 @@
   width: 5%;
   height: 100%;
   background-color: black;
+  background-attachment: fixed;
 }
 
 .navbar img {
@@ -37,5 +38,10 @@
   height: 45px;
   text-align: center;
   color: #08fdd8;
+  cursor: pointer;
+}
+
+.navbar .media i:hover {
+  color: #fb126f;
 }
 /*# sourceMappingURL=navbar.css.map */

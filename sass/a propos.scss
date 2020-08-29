@@ -1,5 +1,179 @@
-body{
-    background-color: #313131;
-    box-sizing: border-box;
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap');
+
+
+
+@import "navbar";
+
+
+
+$first-color: #fb126f;
+
+.navbar{
+    .en{
+        #home{
+            color:#08fdd8;
+            &:hover{
+                color: #fb126f;
+            }
+        }
+    }
 }
+
+
+#home{
+    color: #08fdd8;
+}
+#user{
+    color: #fb126f;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #313131;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+
+}
+.apropos{
+    margin-left: auto;
+    margin-right: auto;;
+    text-align: center;
+    font-weight: 400;
+    
+    
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+        
+    }
+    h1{
+        color: #08fdd8;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+    }
+    p{
+        color: #fb126f;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 2px;
+    }
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 150px;
+    left: 7px;
+    .info_developer{
+        width: 50%;
+
+        text-align: center;
+        p{
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+        button{
+            padding: 15px 30px;
+            margin-top: 60px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 22px;
+            background-color: #08fdd8;
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+            &:hover{
+                background-color: #fb126fb7;
+                color: white;
+            }
+
+        }
+    }
+}
+
+
+.mescomce{
+    background-image: url(../images/0_CbT9SP5AXnnH7vUz.jpg);
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+}
+
+.mescomce_bar{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    margin: 10px 0px 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6px 22.8px 15.2px rgba(255, 255, 255, 0.08);
+    .mescomce_bar_articl{
+        font-family: 'Open Sans', sans-serif;
+
+        .mescomce_bar_articl_nm p{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.4;
+            color: #888888;
+        }
+    }
+    .compétences h2{
+        color: #fb126f;
+        font-size: 56px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .progress-bar {
+
+        .line{
+          height: 7px;
+          background: #efefef;
+          border-radius: 7px;
+          position: relative;
+          width: 400px;
+          
+          span{
+              position: absolute;
+              left: 0;
+              top: 0;
+              height: 100%;
+              background: #08fdd8;
+              border-radius: 10px;
+            }
+        }
+        .label{
+            font-size: 20px;
+            float: right;
+            position: relative;
+            bottom: 22px;
+            
+          }
+
+    }
+
+}
+  
+
+  
+
+  
+  
+  @keyframes animationLoaded{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+
+
+
+
+
+  

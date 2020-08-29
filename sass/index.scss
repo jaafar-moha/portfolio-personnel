@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap');
 
 @import "navbar";
+@import "a propos";
 
 body{
     background-color: #313131;
     box-sizing: border-box;
     display: flex;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .all{
@@ -18,6 +22,7 @@ body{
         line-height: 50px;
         text-align: center;
         font-size: 21px;
+        font-weight: 400;
         .hello{
             font-family: 'Open Sans', sans-serif;
 
