@@ -4,7 +4,7 @@
   width: 5%;
   height: 100%;
   background-color: black;
-  background-attachment: fixed;
+  position: fixed;
 }
 
 .navbar img {
@@ -81,7 +81,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 400;
+  padding-bottom: 35px;
 }
 
 .apropos img {
@@ -111,9 +111,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  position: relative;
-  bottom: 150px;
-  left: 7px;
+  padding-bottom: 90px;
 }
 
 .info .info_developer {
@@ -124,6 +122,7 @@ body {
 .info .info_developer p {
   color: white;
   font-family: 'Open Sans', sans-serif;
+  line-height: 23px;
 }
 
 .info .info_developer button {
@@ -147,6 +146,7 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .mescomce_bar {
@@ -163,11 +163,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 45%;
-  margin: 10px 0px 10px 10px;
+  margin: 10px 0px 10px 35px;
   background-color: white;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 6px 22.8px 15.2px rgba(255, 255, 255, 0.08);
-          box-shadow: 0px 6px 22.8px 15.2px rgba(255, 255, 255, 0.08);
+  -webkit-box-shadow: 0px 6px 22.8px 15.2px rgba(60, 255, 141, 0.08);
+          box-shadow: 0px 6px 22.8px 15.2px rgba(60, 255, 141, 0.08);
 }
 
 .mescomce_bar .mescomce_bar_articl {
@@ -227,5 +227,115 @@ body {
   100% {
     width: 100%;
   }
+}
+
+.messrv {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/ordinateur.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.messrv .messrv_h {
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 85px;
+}
+
+.messrv .messrv_type {
+  color: white;
+  position: relative;
+  left: 50PX;
+  padding: 10PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.messrv .messrv_type .messrv_type_web {
+  background-color: #fb126f;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messrv .messrv_type .messrv_type_web i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type .messrv_type_web h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type .messrv_type_web p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
+}
+
+.messrv .messrv_type .messrv_type_front {
+  background-color: white;
+  color: black;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messrv .messrv_type .messrv_type_front i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type .messrv_type_front h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type .messrv_type_front p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
+}
+
+.messrv .messrv_type .messrv_type_word {
+  background-color: #08fdd8;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.messrv .messrv_type i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
 }
 /*# sourceMappingURL=a propos.css.map */

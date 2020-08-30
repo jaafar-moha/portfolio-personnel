@@ -23,6 +23,9 @@ body{
         text-align: center;
         font-size: 21px;
         font-weight: 400;
+        position: relative;
+        top: 45px;
+        left: 60px;
         .hello{
             font-family: 'Open Sans', sans-serif;
 
@@ -59,9 +62,10 @@ body{
             height: 400px;
             width: 400px;
             position: relative;
-            left: 50%;
-            margin-bottom: 65px;
-            z-index: 0;
+            left: 60%;
+            top: 30px;
+           
+            
         }
 
     }
