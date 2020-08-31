@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap");
 .navbar {
   width: 5%;
   height: 100%;
@@ -56,16 +57,30 @@ body {
   overflow-x: hidden;
 }
 
-.navbar .en #home {
-  color: #08fdd8;
-}
-
-.navbar .en #home:hover {
-  color: #fb126f;
+.navbar {
+  position: relative;
 }
 
 .navbar .en #book {
   color: #fb126f;
-  cursor: pointer;
+}
+
+.porfolio {
+  width: 95%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.porfolio h1 {
+  color: #08fdd8;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+}
+
+.porfolio p {
+  color: #fb126f;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=potfolio.css.map */
