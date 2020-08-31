@@ -22,13 +22,10 @@
   height: 60px;
   text-align: center;
   color: #08fdd8;
+  cursor: pointer;
 }
 
 .navbar .en i:hover {
-  color: #fb126f;
-}
-
-.navbar .en #home {
   color: #fb126f;
 }
 
@@ -69,13 +66,10 @@
   height: 60px;
   text-align: center;
   color: #08fdd8;
+  cursor: pointer;
 }
 
 .navbar .en i:hover {
-  color: #fb126f;
-}
-
-.navbar .en #home {
   color: #fb126f;
 }
 
@@ -192,8 +186,10 @@ body {
 .mescomce {
   background-image: url(../images/0_CbT9SP5AXnnH7vUz.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .mescomce_bar {
@@ -276,6 +272,116 @@ body {
   }
 }
 
+.messrv {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/ordinateur.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.messrv .messrv_h {
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 85px;
+}
+
+.messrv .messrv_type {
+  color: white;
+  position: relative;
+  left: 50PX;
+  padding: 10PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.messrv .messrv_type .messrv_type_web {
+  background-color: #fb126f;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messrv .messrv_type .messrv_type_web i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type .messrv_type_web h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type .messrv_type_web p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
+}
+
+.messrv .messrv_type .messrv_type_front {
+  background-color: white;
+  color: black;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messrv .messrv_type .messrv_type_front i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type .messrv_type_front h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type .messrv_type_front p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
+}
+
+.messrv .messrv_type .messrv_type_word {
+  background-color: #08fdd8;
+  padding-top: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.messrv .messrv_type i {
+  font-size: 40px;
+}
+
+.messrv .messrv_type h2 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.messrv .messrv_type p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  padding: 15px 30px;
+  letter-spacing: 1.5px;
+}
+
 body {
   background-color: #313131;
   -webkit-box-sizing: border-box;
@@ -285,6 +391,10 @@ body {
   display: flex;
   margin: 0px;
   padding: 0px;
+}
+
+.navbar .en #home {
+  color: #fb126f;
 }
 
 .all {

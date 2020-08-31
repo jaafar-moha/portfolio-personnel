@@ -1,0 +1,27 @@
+@import "navbar";
+
+
+body{
+    box-sizing: border-box;
+    background-color: #313131;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar{
+    .en{
+        #home{
+            color: #08fdd8;
+            &:hover{
+                color: #fb126f;
+            }
+        }
+        #book{
+            color: #fb126f;
+            cursor: pointer;
+        }
+    }
+
+}

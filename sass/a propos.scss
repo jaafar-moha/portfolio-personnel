@@ -14,9 +14,6 @@ $first-fontfa: 'Open Sans', sans-serif;
 $tow-fontfa:'Dancing Script', cursive;
 
 
-
-
-
 @mixin type-messervices {
     padding-top: 30px;
     border-radius: 5px;
@@ -123,6 +120,7 @@ body{
 .mescomce{
     background-image: url(../images/0_CbT9SP5AXnnH7vUz.jpg);
     background-size:cover ;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     margin-bottom: 50px;

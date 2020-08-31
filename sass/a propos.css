@@ -144,6 +144,7 @@ body {
 .mescomce {
   background-image: url(../images/0_CbT9SP5AXnnH7vUz.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   margin-bottom: 50px;
