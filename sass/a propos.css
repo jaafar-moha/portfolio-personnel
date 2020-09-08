@@ -21,13 +21,10 @@
   height: 60px;
   text-align: center;
   color: #08fdd8;
+  cursor: pointer;
 }
 
 .navbar .en i:hover {
-  color: #fb126f;
-}
-
-.navbar .en #home {
   color: #fb126f;
 }
 
