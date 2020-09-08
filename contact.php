@@ -43,7 +43,13 @@
         </div>
     </section>
     <div class="ensemble">
-        <img src="images/logo.png" alt="" >
+        <div class="ensemble_trav">
+            <img src="images/logo.png" alt="" >
+            <h3>Travaillons ensemble!</h3>
+        </div>
+    </div>
+    <div class="coperight">
+        <p>COPYRIGHT © 2020 SITE INTERNET RÉALISÉ ET HÉBERGÉ PAR JAAFARCREATION.COM</p>
     </div>
 
 

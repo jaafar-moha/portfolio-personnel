@@ -39,12 +39,12 @@ body{
         .contact_info_paragh{
             font-family: 'Open Sans', sans-serif;
             text-align: center;
-            padding: 30px ;
-            line-height: 25px;
+            padding: 60px 30px ;
+            line-height: 40px;
             font-size: 20px;
         }
         .contact_info_person{
-            margin: 40px 60px;
+            margin: 100px 60px;
             h3{
                 font-family: 'Dancing Script', cursive;
                 font-weight: bold;
@@ -83,6 +83,7 @@ body{
         background: none;
         margin-top: 9px;
         margin-bottom: 10px;
+        color: white;
         
     }
     input[type=submit] {
@@ -104,12 +105,46 @@ body{
         background: none;
         margin-top: 11px;
         margin-bottom: 16px;
+        color: white;
     }
 }
 
 
 .ensemble{
-    img{
-        width: 100px;
+    background-image: url(../images/enseple.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    .ensemble_trav{
+        padding-top: 40px;
+        img{
+            width: 150px;
+            height: 150px;
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+        h3{
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 60px;
+            color: white;
+            margin-top: 0px;
+
+        }
+
+    }
+
+}
+
+.coperight{
+    width: 100%;
+    p{
+        color: white;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
     }
 }
