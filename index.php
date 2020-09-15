@@ -12,7 +12,9 @@
 <body>
 <?php include 'navbar.php'; ?>
 
+
   <div class="all" >
+
     <div class="all_presentation">
       <h1 class="hello">Bonjour, je m'appelle</h1>
       <h1 class="nome">M'HAMED JAAFAR</h1>
@@ -25,6 +27,9 @@
     </div>
 
   </div>
+
+
+  
 
 </body>
 </html>

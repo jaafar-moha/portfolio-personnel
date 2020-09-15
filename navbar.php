@@ -10,10 +10,10 @@
     <img src="images/logo.png" alt="" >
     <div class="en">
       <a href="index.php"><i class="fas fa-home" id="home"></i></a>
-      <a href="a propos.php"><i class="far fa-user"></i></a>
-      <a href="portfolio.php"><i class="fas fa-book-open"></i></a>
+      <a href="a propos.php"><i class="far fa-user" id="user"></i></a>
+      <a href="portfolio.php"><i class="fas fa-book-open" id="book"></i></a>
       <a href="contact.php"><i class="far fa-envelope" id="envolop"></i></a>
-      <i class="fas fa-user-plus"></i>
+      <a href="login.php"><i class="fas fa-user-plus"></i></a>
       
     </div>
     <div class="media">

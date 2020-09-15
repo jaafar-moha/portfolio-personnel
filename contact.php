@@ -1,3 +1,24 @@
+
+<?php
+
+include('db.php');
+
+    if(isset($_POST['mail']) && $_POST['mail'] != ""){
+        if(filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)){
+            $name = $_POST['firstname'];
+            $lastname = $_POST['lastname'];
+            $email = $_POST['mail'];
+            $message = $_POST['subject'];
+            
+            $query="INSERT INTO pocontact (cname,clastname,cemail,csubject) "; 
+            $query.="VALUES('$name','$lastname','$email','$message')";
+            $run = mysqli_query($db,$query);
+    
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +47,7 @@
         </div>
         <div class="message">
             <h2>CONTACT</h2>
-            <form action=""></form>
+            <form action="contact.php" method="POST">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -39,7 +60,8 @@
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" name="submit">
+            </form>
         </div>
     </section>
     <div class="ensemble">
@@ -51,12 +73,6 @@
     <div class="coperight">
         <p>COPYRIGHT © 2020 SITE INTERNET RÉALISÉ ET HÉBERGÉ PAR JAAFARCREATION.COM</p>
     </div>
-
-
-
-
-
-    
     
 </body>
 </html>
